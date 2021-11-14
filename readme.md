@@ -1,12 +1,10 @@
-# node接口小项目
+# 新闻项目初步实现
 该项目的后端内容由node编写，主要有登录、注册、详情信息、列表信息等接口。
 
 ## 环境搭建
 1. Node 14或以上版本
    - 使用的第三方node模块请查阅package.json
    
-2. jQuery1.7以上版本
-
 3. require 第三方模块化
 
 4. mongodb数据库
@@ -15,13 +13,13 @@
 
 ## 安装步骤
 
-clone这个地址：`https://github.com/zhoujingxian/yfw.git`
+clone这个地址：`https://github.com/zhoujingxian/news_obj.git`
 
 ## 快速入门
-使用node启动app.js,访问本地3000端口的html文件
+PowerShell中输入`nodemon start`启动，在浏览器中输入对应路由
 
 ## 页面
-1. 首页：`http://localhost:3000/index.html`
-3. 关注页面：`http://localhost:3000/follow.html`
-3. 栏目页面：`http://localhost:3000/column.html`
-4. 个人中心：`http://localhost:3000/mydoc.html`
+1. 首页：`http://localhost:3000/home`
+3. 关注页面：`http://localhost:3000/follow`
+3. 栏目页面：`http://localhost:3000/column`
+4. 个人中心：`http://localhost:3000/mydoc`
